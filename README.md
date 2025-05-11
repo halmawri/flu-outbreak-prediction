@@ -1,4 +1,5 @@
-📊 Flu Outbreak Prediction Capstone Project  
+
+# 📊 Flu Outbreak Prediction Capstone Project  
 
 This repository contains the code, data, and documentation for my **Capstone Project** on **Predicting Flu Outbreaks** using **Time Series Analysis and Machine Learning**. The project aims to **forecast flu outbreaks** using **CDC historical data** and **Google Trends search volumes**, leveraging advanced **machine learning** and **deep learning** models like **ARIMA, LSTM, Random Forest**, and **XGBoost**.
 
@@ -47,8 +48,7 @@ cd Flu-Outbreak-Prediction-Capstone
 Create and activate a virtual environment:  
 ```bash
 python -m venv venv
-source venv/bin/activate  # On Windows: .
-env\Scripts ctivate
+source venv/bin/activate  # On Windows: .env\Scriptsctivate
 ```
 
 Install required packages:  
