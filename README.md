@@ -85,24 +85,27 @@ This project follows a systematic approach based on the capstone proposal:
 - Real Google Trends data for flu-related search terms
 - Data covering 2017-2024 period for comprehensive analysis
 
-### Step 2: Exploratory Data Analysis
+### Step 2: Data Preprocessing
+- Cleaning, standardizing, and merging the datasets.
+
+### Step 3: Exploratory Data Analysis
 - Seasonal pattern identification
 - Correlation analysis between search terms and flu activity
 - Lag analysis determining optimal prediction timeframes
 
-### Step 3: Feature Engineering
+### Step 4: Feature Engineering
 - Time-based features (seasonality, trends)
 - Lagged search terms (1-8 months)
 - Interaction and polynomial features
 - Rolling window statistics
 
-### Step 4: Model Development
+### Step 5: Model Development
 - Linear models (Regression, Ridge, Lasso)
 - Tree-based models (Random Forest, XGBoost)
 - Neural networks (LSTM)
 - Ensemble methods
 
-### Step 5: Model Validation
+### Step 6: Model Validation
 - Time series cross-validation
 - Seasonal performance analysis
 - SHAP interpretability analysis
