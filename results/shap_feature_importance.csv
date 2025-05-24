@@ -1,0 +1,661 @@
+Model,Feature,SHAP_Importance
+Linear Regression,month,1.169738792777753
+Linear Regression,quarter,1.4216723061696352
+Linear Regression,season_Spring,0.6665479396411562
+Linear Regression,season_Summer,0.2653120781943338
+Linear Regression,season_Winter,1.0332567432529796
+Linear Regression,month_sin,3.396188454090141
+Linear Regression,month_cos,2.848912182173669
+Linear Regression,time_index,1.0491333847172044
+Linear Regression,flu symptoms_lag1,0.7948650320101354
+Linear Regression,flu symptoms_lag2,0.32152703571945984
+Linear Regression,flu symptoms_lag3,0.7458682907244195
+Linear Regression,flu symptoms_lag4,0.07071268665024255
+Linear Regression,flu symptoms_lag5,0.14122479771209898
+Linear Regression,flu symptoms_lag6,0.15042626079670932
+Linear Regression,flu symptoms_lag7,0.2690188125117485
+Linear Regression,flu symptoms_lag8,0.2047758762330274
+Linear Regression,fever_lag1,0.23883318679484072
+Linear Regression,fever_lag2,0.19105320113407312
+Linear Regression,fever_lag3,0.3942851501067546
+Linear Regression,fever_lag4,0.5157825334319804
+Linear Regression,fever_lag5,0.3352589698077891
+Linear Regression,fever_lag6,0.7956009641863311
+Linear Regression,fever_lag7,1.0429322564919723
+Linear Regression,fever_lag8,0.36039281751093244
+Linear Regression,cough_lag1,0.9109722090250004
+Linear Regression,cough_lag2,0.0962283580830489
+Linear Regression,cough_lag3,0.27104713382642215
+Linear Regression,cough_lag4,0.2560947477489649
+Linear Regression,cough_lag5,0.10897344574683936
+Linear Regression,cough_lag6,0.34813914114676997
+Linear Regression,cough_lag7,0.39346351999410945
+Linear Regression,cough_lag8,0.11318900742341034
+Linear Regression,sore throat_lag1,0.05066198619608024
+Linear Regression,sore throat_lag2,0.3025491939685177
+Linear Regression,sore throat_lag3,0.45539344273137566
+Linear Regression,sore throat_lag4,0.11513210627136387
+Linear Regression,sore throat_lag5,0.21981222460861427
+Linear Regression,sore throat_lag6,0.4055093063126102
+Linear Regression,sore throat_lag7,0.693103526888941
+Linear Regression,sore throat_lag8,0.055223464076297045
+Linear Regression,influenza_lag1,0.82472061815375
+Linear Regression,influenza_lag2,0.40181121177191603
+Linear Regression,influenza_lag3,0.00012417407535439745
+Linear Regression,influenza_lag4,0.15648101898962885
+Linear Regression,influenza_lag5,0.12379167939483651
+Linear Regression,influenza_lag6,0.1540975523715074
+Linear Regression,influenza_lag7,0.6760967924972875
+Linear Regression,influenza_lag8,0.45479520755030906
+Linear Regression,ili_percent_lag1,0.38477593936384535
+Linear Regression,ili_percent_lag2,0.1429269074660801
+Linear Regression,ili_percent_lag3,0.017606349122880515
+Linear Regression,flu symptoms_lag3_squared,0.21125112912080043
+Linear Regression,influenza_lag3_squared,0.19054628055563025
+Linear Regression,scaled_flu symptoms_lag1,0.7948650320101195
+Linear Regression,scaled_flu symptoms_lag2,0.3215270357195318
+Linear Regression,scaled_flu symptoms_lag3,0.74586829072439
+Linear Regression,scaled_flu symptoms_lag4,0.07071268665027589
+Linear Regression,scaled_flu symptoms_lag5,0.1412247977120234
+Linear Regression,scaled_flu symptoms_lag6,0.15042626079677643
+Linear Regression,scaled_flu symptoms_lag7,0.2690188125117194
+Linear Regression,scaled_flu symptoms_lag8,0.20477587623309818
+Linear Regression,scaled_fever_lag1,0.23883318679477913
+Linear Regression,scaled_fever_lag2,0.1910532011340285
+Linear Regression,scaled_fever_lag3,0.39428515010668647
+Linear Regression,scaled_fever_lag4,0.5157825334319279
+Linear Regression,scaled_fever_lag5,0.33525896980778314
+Linear Regression,scaled_fever_lag6,0.7956009641862308
+Linear Regression,scaled_fever_lag7,1.042932256491906
+Linear Regression,scaled_fever_lag8,0.3603928175109699
+Linear Regression,scaled_cough_lag1,0.9109722090250061
+Linear Regression,scaled_cough_lag2,0.09622835808307553
+Linear Regression,scaled_cough_lag3,0.2710471338264297
+Linear Regression,scaled_cough_lag4,0.25609474774895297
+Linear Regression,scaled_cough_lag5,0.1089734457468488
+Linear Regression,scaled_cough_lag6,0.3481391411467729
+Linear Regression,scaled_cough_lag7,0.39346351999410095
+Linear Regression,scaled_cough_lag8,0.11318900742339802
+Linear Regression,scaled_sore throat_lag1,0.05066198619602215
+Linear Regression,scaled_sore throat_lag2,0.3025491939684969
+Linear Regression,scaled_sore throat_lag3,0.45539344273134663
+Linear Regression,scaled_sore throat_lag4,0.11513210627136625
+Linear Regression,scaled_sore throat_lag5,0.2198122246085829
+Linear Regression,scaled_sore throat_lag6,0.40550930631267584
+Linear Regression,scaled_sore throat_lag7,0.6931035268888934
+Linear Regression,scaled_sore throat_lag8,0.05522346407629904
+Linear Regression,scaled_influenza_lag1,0.8247206181537287
+Linear Regression,scaled_influenza_lag2,0.4018112117718907
+Linear Regression,scaled_influenza_lag3,0.00012417407538493176
+Linear Regression,scaled_influenza_lag4,0.15648101898956596
+Linear Regression,scaled_influenza_lag5,0.12379167939480858
+Linear Regression,scaled_influenza_lag6,0.15409755237148884
+Linear Regression,scaled_influenza_lag7,0.6760967924973217
+Linear Regression,scaled_influenza_lag8,0.45479520755029734
+Linear Regression,scaled_ili_percent_lag1,0.3847759393639097
+Linear Regression,scaled_ili_percent_lag2,0.14292690746603093
+Linear Regression,scaled_ili_percent_lag3,0.01760634912288535
+Linear Regression,scaled_flu symptoms_lag3_squared,0.21125112912079583
+Linear Regression,scaled_influenza_lag3_squared,0.19054628055562015
+Linear Regression,flu symptoms_X_month_sin,0.5816294658899132
+Linear Regression,flu symptoms_X_month_cos,1.0022148927641819
+Linear Regression,fever_X_month_sin,1.599862771572707
+Linear Regression,fever_X_month_cos,5.937990661148941
+Linear Regression,cough_X_month_sin,0.016904258251433844
+Linear Regression,cough_X_month_cos,5.575221748647759
+Linear Regression,sore throat_X_month_sin,0.9669670296825444
+Linear Regression,sore throat_X_month_cos,1.0866833682342376
+Linear Regression,influenza_X_month_sin,0.6649000385429384
+Linear Regression,influenza_X_month_cos,1.6269727695160583
+Linear Regression,scaled_flu symptoms_X_month_sin,0.5816294658899965
+Linear Regression,scaled_flu symptoms_X_month_cos,1.0022148927641745
+Linear Regression,scaled_fever_X_month_sin,1.5998627715728069
+Linear Regression,scaled_fever_X_month_cos,5.937990661148919
+Linear Regression,scaled_cough_X_month_sin,0.016904258251468244
+Linear Regression,scaled_cough_X_month_cos,5.575221748647698
+Linear Regression,scaled_sore throat_X_month_sin,0.96696702968258
+Linear Regression,scaled_sore throat_X_month_cos,1.0866833682342496
+Linear Regression,scaled_influenza_X_month_sin,0.6649000385429628
+Linear Regression,scaled_influenza_X_month_cos,1.6269727695161333
+Linear Regression,flu symptoms_lag3_squared.1,0.21125112912079547
+Linear Regression,influenza_lag3_squared.1,0.1905462805556225
+Linear Regression,scaled_flu symptoms_lag3_squared.1,0.21125112912079583
+Linear Regression,scaled_influenza_lag3_squared.1,0.19054628055562015
+Linear Regression,flu symptoms_rolling_avg,0.7894852538896727
+Linear Regression,fever_rolling_avg,1.4091948373853014
+Linear Regression,cough_rolling_avg,0.7102160899291472
+Linear Regression,sore throat_rolling_avg,0.7719847194976618
+Linear Regression,influenza_rolling_avg,0.9858206994701302
+Linear Regression,scaled_flu symptoms_rolling_avg,0.7894852538896925
+Linear Regression,scaled_fever_rolling_avg,1.4091948373851966
+Linear Regression,scaled_cough_rolling_avg,0.7102160899290956
+Linear Regression,scaled_sore throat_rolling_avg,0.7719847194976006
+Linear Regression,scaled_influenza_rolling_avg,0.985820699470163
+Ridge,month,0.08659651627491849
+Ridge,quarter,0.07373527322910893
+Ridge,season_Spring,0.1644871532959237
+Ridge,season_Summer,0.28478415335852264
+Ridge,season_Winter,0.07346704436271834
+Ridge,month_sin,0.11220328247010562
+Ridge,month_cos,0.06547353600494088
+Ridge,time_index,0.002637102074401687
+Ridge,flu symptoms_lag1,0.005917137141744837
+Ridge,flu symptoms_lag2,0.04486181347956468
+Ridge,flu symptoms_lag3,0.005855006005234154
+Ridge,flu symptoms_lag4,0.031062368725170226
+Ridge,flu symptoms_lag5,0.042958565642735425
+Ridge,flu symptoms_lag6,0.05630685893502786
+Ridge,flu symptoms_lag7,0.01637707006248396
+Ridge,flu symptoms_lag8,0.047960642759720215
+Ridge,fever_lag1,0.018225182447846832
+Ridge,fever_lag2,0.07008646298931664
+Ridge,fever_lag3,0.02114818514764512
+Ridge,fever_lag4,0.04689393089286682
+Ridge,fever_lag5,0.024059383317854705
+Ridge,fever_lag6,0.025276453112743586
+Ridge,fever_lag7,0.013047845018681042
+Ridge,fever_lag8,0.012654529317990815
+Ridge,cough_lag1,0.001057477227885577
+Ridge,cough_lag2,0.02433223390328191
+Ridge,cough_lag3,0.0005669932926573344
+Ridge,cough_lag4,0.0134571105643321
+Ridge,cough_lag5,0.022715550959094055
+Ridge,cough_lag6,0.00796447160641105
+Ridge,cough_lag7,0.00538433498428906
+Ridge,cough_lag8,0.004748788698056304
+Ridge,sore throat_lag1,0.03279636926931705
+Ridge,sore throat_lag2,0.004532692737004646
+Ridge,sore throat_lag3,0.020343175386912722
+Ridge,sore throat_lag4,0.021104631560744314
+Ridge,sore throat_lag5,0.02241583966474112
+Ridge,sore throat_lag6,0.002148188845714369
+Ridge,sore throat_lag7,0.001546210976626042
+Ridge,sore throat_lag8,0.013971401261200783
+Ridge,influenza_lag1,0.02024911741779679
+Ridge,influenza_lag2,0.013053598767700398
+Ridge,influenza_lag3,0.0032880672537810842
+Ridge,influenza_lag4,0.002409375344213846
+Ridge,influenza_lag5,0.02896809896860496
+Ridge,influenza_lag6,0.0027701195569176766
+Ridge,influenza_lag7,0.021850270500079937
+Ridge,influenza_lag8,0.027504745749098558
+Ridge,ili_percent_lag1,0.023352861579740435
+Ridge,ili_percent_lag2,0.014128091367977486
+Ridge,ili_percent_lag3,0.03142068915876403
+Ridge,flu symptoms_lag3_squared,0.007340996095467714
+Ridge,influenza_lag3_squared,0.018989379693580822
+Ridge,scaled_flu symptoms_lag1,0.005917137141744837
+Ridge,scaled_flu symptoms_lag2,0.04486181347956471
+Ridge,scaled_flu symptoms_lag3,0.005855006005234137
+Ridge,scaled_flu symptoms_lag4,0.031062368725170254
+Ridge,scaled_flu symptoms_lag5,0.04295856564273533
+Ridge,scaled_flu symptoms_lag6,0.05630685893502794
+Ridge,scaled_flu symptoms_lag7,0.016377070062483994
+Ridge,scaled_flu symptoms_lag8,0.04796064275972019
+Ridge,scaled_fever_lag1,0.018225182447846797
+Ridge,scaled_fever_lag2,0.07008646298931673
+Ridge,scaled_fever_lag3,0.021148185147645118
+Ridge,scaled_fever_lag4,0.04689393089286718
+Ridge,scaled_fever_lag5,0.02405938331785481
+Ridge,scaled_fever_lag6,0.025276453112743485
+Ridge,scaled_fever_lag7,0.013047845018681083
+Ridge,scaled_fever_lag8,0.012654529317990817
+Ridge,scaled_cough_lag1,0.00105747722788553
+Ridge,scaled_cough_lag2,0.024332233903281927
+Ridge,scaled_cough_lag3,0.0005669932926573572
+Ridge,scaled_cough_lag4,0.013457110564332136
+Ridge,scaled_cough_lag5,0.022715550959094048
+Ridge,scaled_cough_lag6,0.00796447160641112
+Ridge,scaled_cough_lag7,0.005384334984289122
+Ridge,scaled_cough_lag8,0.004748788698056326
+Ridge,scaled_sore throat_lag1,0.032796369269317095
+Ridge,scaled_sore throat_lag2,0.004532692737004679
+Ridge,scaled_sore throat_lag3,0.02034317538691272
+Ridge,scaled_sore throat_lag4,0.02110463156074429
+Ridge,scaled_sore throat_lag5,0.02241583966474107
+Ridge,scaled_sore throat_lag6,0.0021481888457143333
+Ridge,scaled_sore throat_lag7,0.0015462109766260107
+Ridge,scaled_sore throat_lag8,0.013971401261200772
+Ridge,scaled_influenza_lag1,0.020249117417796798
+Ridge,scaled_influenza_lag2,0.013053598767700413
+Ridge,scaled_influenza_lag3,0.0032880672537810712
+Ridge,scaled_influenza_lag4,0.0024093753442139066
+Ridge,scaled_influenza_lag5,0.02896809896860501
+Ridge,scaled_influenza_lag6,0.0027701195569176766
+Ridge,scaled_influenza_lag7,0.021850270500079875
+Ridge,scaled_influenza_lag8,0.02750474574909857
+Ridge,scaled_ili_percent_lag1,0.023352861579740224
+Ridge,scaled_ili_percent_lag2,0.014128091367977488
+Ridge,scaled_ili_percent_lag3,0.03142068915876403
+Ridge,scaled_flu symptoms_lag3_squared,0.007340996095467696
+Ridge,scaled_influenza_lag3_squared,0.01898937969358081
+Ridge,flu symptoms_X_month_sin,0.021159085365032828
+Ridge,flu symptoms_X_month_cos,0.017744427210087385
+Ridge,fever_X_month_sin,0.11556225809759639
+Ridge,fever_X_month_cos,0.07206513881803084
+Ridge,cough_X_month_sin,0.09640519552983343
+Ridge,cough_X_month_cos,0.12616183515595863
+Ridge,sore throat_X_month_sin,0.08193169874822609
+Ridge,sore throat_X_month_cos,0.06932110585727207
+Ridge,influenza_X_month_sin,0.021314390845947467
+Ridge,influenza_X_month_cos,0.008022137799737835
+Ridge,scaled_flu symptoms_X_month_sin,0.021159085365032824
+Ridge,scaled_flu symptoms_X_month_cos,0.017744427210087406
+Ridge,scaled_fever_X_month_sin,0.11556225809759635
+Ridge,scaled_fever_X_month_cos,0.07206513881803082
+Ridge,scaled_cough_X_month_sin,0.09640519552983343
+Ridge,scaled_cough_X_month_cos,0.12616183515595863
+Ridge,scaled_sore throat_X_month_sin,0.08193169874822614
+Ridge,scaled_sore throat_X_month_cos,0.06932110585727207
+Ridge,scaled_influenza_X_month_sin,0.021314390845947464
+Ridge,scaled_influenza_X_month_cos,0.008022137799737837
+Ridge,flu symptoms_lag3_squared.1,0.007340996095467714
+Ridge,influenza_lag3_squared.1,0.018989379693580822
+Ridge,scaled_flu symptoms_lag3_squared.1,0.007340996095467696
+Ridge,scaled_influenza_lag3_squared.1,0.01898937969358081
+Ridge,flu symptoms_rolling_avg,0.01317459126253589
+Ridge,fever_rolling_avg,0.006254676943572203
+Ridge,cough_rolling_avg,0.07713052814119993
+Ridge,sore throat_rolling_avg,0.010938788095126164
+Ridge,influenza_rolling_avg,0.009233913010563078
+Ridge,scaled_flu symptoms_rolling_avg,0.0131745912625359
+Ridge,scaled_fever_rolling_avg,0.0062546769435721334
+Ridge,scaled_cough_rolling_avg,0.07713052814119994
+Ridge,scaled_sore throat_rolling_avg,0.010938788095126136
+Ridge,scaled_influenza_rolling_avg,0.009233913010563055
+Lasso,month,0.0
+Lasso,quarter,0.010385314158752042
+Lasso,season_Spring,0.20216751687687856
+Lasso,season_Summer,0.10027250799990288
+Lasso,season_Winter,0.0
+Lasso,month_sin,0.48570607217412753
+Lasso,month_cos,0.0
+Lasso,time_index,0.0
+Lasso,flu symptoms_lag1,0.0
+Lasso,flu symptoms_lag2,0.01698558443533532
+Lasso,flu symptoms_lag3,0.0
+Lasso,flu symptoms_lag4,0.008579222499815565
+Lasso,flu symptoms_lag5,0.03641988293077427
+Lasso,flu symptoms_lag6,0.02605126775857658
+Lasso,flu symptoms_lag7,0.0
+Lasso,flu symptoms_lag8,0.0
+Lasso,fever_lag1,0.0
+Lasso,fever_lag2,0.0
+Lasso,fever_lag3,0.0
+Lasso,fever_lag4,0.0
+Lasso,fever_lag5,0.0
+Lasso,fever_lag6,0.0
+Lasso,fever_lag7,0.0
+Lasso,fever_lag8,0.0
+Lasso,cough_lag1,0.0
+Lasso,cough_lag2,0.0
+Lasso,cough_lag3,0.0
+Lasso,cough_lag4,0.0
+Lasso,cough_lag5,0.0
+Lasso,cough_lag6,0.0
+Lasso,cough_lag7,0.0
+Lasso,cough_lag8,0.0
+Lasso,sore throat_lag1,0.0
+Lasso,sore throat_lag2,0.0
+Lasso,sore throat_lag3,0.0
+Lasso,sore throat_lag4,0.0
+Lasso,sore throat_lag5,0.0
+Lasso,sore throat_lag6,0.0
+Lasso,sore throat_lag7,0.0
+Lasso,sore throat_lag8,0.0
+Lasso,influenza_lag1,0.0
+Lasso,influenza_lag2,0.026425196580717698
+Lasso,influenza_lag3,0.0
+Lasso,influenza_lag4,0.0
+Lasso,influenza_lag5,0.0
+Lasso,influenza_lag6,0.0
+Lasso,influenza_lag7,0.0
+Lasso,influenza_lag8,0.0
+Lasso,ili_percent_lag1,0.20422387230013356
+Lasso,ili_percent_lag2,0.0
+Lasso,ili_percent_lag3,0.0
+Lasso,flu symptoms_lag3_squared,0.0
+Lasso,influenza_lag3_squared,0.0
+Lasso,scaled_flu symptoms_lag1,0.0
+Lasso,scaled_flu symptoms_lag2,2.21068646241407e-05
+Lasso,scaled_flu symptoms_lag3,0.0
+Lasso,scaled_flu symptoms_lag4,0.007123312770600329
+Lasso,scaled_flu symptoms_lag5,0.010828763374663345
+Lasso,scaled_flu symptoms_lag6,0.0011613993998066238
+Lasso,scaled_flu symptoms_lag7,0.0
+Lasso,scaled_flu symptoms_lag8,0.0
+Lasso,scaled_fever_lag1,0.0
+Lasso,scaled_fever_lag2,0.0
+Lasso,scaled_fever_lag3,0.0
+Lasso,scaled_fever_lag4,0.0
+Lasso,scaled_fever_lag5,0.0
+Lasso,scaled_fever_lag6,0.0
+Lasso,scaled_fever_lag7,0.0
+Lasso,scaled_fever_lag8,0.0
+Lasso,scaled_cough_lag1,0.0
+Lasso,scaled_cough_lag2,0.0
+Lasso,scaled_cough_lag3,0.0
+Lasso,scaled_cough_lag4,0.0
+Lasso,scaled_cough_lag5,0.0
+Lasso,scaled_cough_lag6,0.0
+Lasso,scaled_cough_lag7,0.0
+Lasso,scaled_cough_lag8,0.0
+Lasso,scaled_sore throat_lag1,0.0
+Lasso,scaled_sore throat_lag2,0.0
+Lasso,scaled_sore throat_lag3,0.0
+Lasso,scaled_sore throat_lag4,0.0
+Lasso,scaled_sore throat_lag5,0.0
+Lasso,scaled_sore throat_lag6,0.0
+Lasso,scaled_sore throat_lag7,0.0
+Lasso,scaled_sore throat_lag8,0.0
+Lasso,scaled_influenza_lag1,0.0
+Lasso,scaled_influenza_lag2,0.0005270767342129838
+Lasso,scaled_influenza_lag3,0.0
+Lasso,scaled_influenza_lag4,0.0
+Lasso,scaled_influenza_lag5,0.0
+Lasso,scaled_influenza_lag6,0.0
+Lasso,scaled_influenza_lag7,0.0
+Lasso,scaled_influenza_lag8,0.0
+Lasso,scaled_ili_percent_lag1,0.0006343875466063182
+Lasso,scaled_ili_percent_lag2,0.0
+Lasso,scaled_ili_percent_lag3,0.0
+Lasso,scaled_flu symptoms_lag3_squared,0.0
+Lasso,scaled_influenza_lag3_squared,0.0
+Lasso,flu symptoms_X_month_sin,0.0
+Lasso,flu symptoms_X_month_cos,0.04927770654030807
+Lasso,fever_X_month_sin,0.0
+Lasso,fever_X_month_cos,0.0
+Lasso,cough_X_month_sin,0.0
+Lasso,cough_X_month_cos,0.21420215910294385
+Lasso,sore throat_X_month_sin,0.3397726343939049
+Lasso,sore throat_X_month_cos,0.0
+Lasso,influenza_X_month_sin,0.0
+Lasso,influenza_X_month_cos,0.0
+Lasso,scaled_flu symptoms_X_month_sin,0.0
+Lasso,scaled_flu symptoms_X_month_cos,0.001504158703305994
+Lasso,scaled_fever_X_month_sin,0.0
+Lasso,scaled_fever_X_month_cos,0.0
+Lasso,scaled_cough_X_month_sin,0.0
+Lasso,scaled_cough_X_month_cos,0.00021527665024524922
+Lasso,scaled_sore throat_X_month_sin,0.0001948807179794702
+Lasso,scaled_sore throat_X_month_cos,0.0
+Lasso,scaled_influenza_X_month_sin,0.0
+Lasso,scaled_influenza_X_month_cos,0.0
+Lasso,flu symptoms_lag3_squared.1,0.0
+Lasso,influenza_lag3_squared.1,0.0
+Lasso,scaled_flu symptoms_lag3_squared.1,0.0
+Lasso,scaled_influenza_lag3_squared.1,0.0
+Lasso,flu symptoms_rolling_avg,0.0
+Lasso,fever_rolling_avg,0.0
+Lasso,cough_rolling_avg,0.0
+Lasso,sore throat_rolling_avg,0.0
+Lasso,influenza_rolling_avg,0.0
+Lasso,scaled_flu symptoms_rolling_avg,0.0
+Lasso,scaled_fever_rolling_avg,0.0
+Lasso,scaled_cough_rolling_avg,0.0
+Lasso,scaled_sore throat_rolling_avg,0.0
+Lasso,scaled_influenza_rolling_avg,0.0
+Random Forest,month,0.3284526343604517
+Random Forest,quarter,0.2777492277309487
+Random Forest,season_Spring,0.2377357751954876
+Random Forest,season_Summer,0.00020514185657268747
+Random Forest,season_Winter,0.0
+Random Forest,month_sin,0.09092723302204073
+Random Forest,month_cos,0.032258050847067184
+Random Forest,time_index,0.007551968633956294
+Random Forest,flu symptoms_lag1,0.01023068309415499
+Random Forest,flu symptoms_lag2,0.0014103695964850455
+Random Forest,flu symptoms_lag3,0.002014978795616576
+Random Forest,flu symptoms_lag4,0.009229359344613077
+Random Forest,flu symptoms_lag5,0.012375827004174124
+Random Forest,flu symptoms_lag6,0.002336931769716949
+Random Forest,flu symptoms_lag7,0.0001892058952091212
+Random Forest,flu symptoms_lag8,0.006178742482927331
+Random Forest,fever_lag1,0.006932333157018453
+Random Forest,fever_lag2,0.006206570603067734
+Random Forest,fever_lag3,0.0015458822010410152
+Random Forest,fever_lag4,0.0009631602398890266
+Random Forest,fever_lag5,0.0017545348157461025
+Random Forest,fever_lag6,0.002704076343137179
+Random Forest,fever_lag7,0.0007299621689944633
+Random Forest,fever_lag8,0.0025720083662188627
+Random Forest,cough_lag1,0.00638578282003679
+Random Forest,cough_lag2,0.0016828162768914728
+Random Forest,cough_lag3,0.006986031554369628
+Random Forest,cough_lag4,0.003414106505874219
+Random Forest,cough_lag5,0.0010325331812163917
+Random Forest,cough_lag6,0.0030053756250123013
+Random Forest,cough_lag7,0.0009571156078236273
+Random Forest,cough_lag8,0.00047410232821794545
+Random Forest,sore throat_lag1,0.002890466137990276
+Random Forest,sore throat_lag2,0.001063222418101107
+Random Forest,sore throat_lag3,0.001042862884375421
+Random Forest,sore throat_lag4,0.0033288065848085884
+Random Forest,sore throat_lag5,0.0009220589291493326
+Random Forest,sore throat_lag6,0.0006054692294359462
+Random Forest,sore throat_lag7,0.0024757140123944626
+Random Forest,sore throat_lag8,0.0013467540806286291
+Random Forest,influenza_lag1,0.004195644858233724
+Random Forest,influenza_lag2,0.006257066932524501
+Random Forest,influenza_lag3,0.0006504011470412124
+Random Forest,influenza_lag4,0.0014122438294786638
+Random Forest,influenza_lag5,0.00016648424283692993
+Random Forest,influenza_lag6,0.0008428559111444054
+Random Forest,influenza_lag7,0.003249741575262084
+Random Forest,influenza_lag8,0.0002546273550244001
+Random Forest,ili_percent_lag1,0.06351722793101047
+Random Forest,ili_percent_lag2,0.004501276835056705
+Random Forest,ili_percent_lag3,0.01950637902946052
+Random Forest,flu symptoms_lag3_squared,0.0021436580009764647
+Random Forest,influenza_lag3_squared,0.0007563702222519581
+Random Forest,scaled_flu symptoms_lag1,0.0058972821704971045
+Random Forest,scaled_flu symptoms_lag2,0.0005002485860351573
+Random Forest,scaled_flu symptoms_lag3,0.0027369154130776185
+Random Forest,scaled_flu symptoms_lag4,0.00441387616553203
+Random Forest,scaled_flu symptoms_lag5,0.0007456518433656548
+Random Forest,scaled_flu symptoms_lag6,0.0012264859682128277
+Random Forest,scaled_flu symptoms_lag7,0.000565858490022609
+Random Forest,scaled_flu symptoms_lag8,0.006233507186192855
+Random Forest,scaled_fever_lag1,0.010553450314872963
+Random Forest,scaled_fever_lag2,0.009293994971904869
+Random Forest,scaled_fever_lag3,0.0013272716043096677
+Random Forest,scaled_fever_lag4,0.0017752056340896321
+Random Forest,scaled_fever_lag5,0.0016788987359782816
+Random Forest,scaled_fever_lag6,0.0013165776694187862
+Random Forest,scaled_fever_lag7,0.0012549807092283429
+Random Forest,scaled_fever_lag8,0.001472560203687412
+Random Forest,scaled_cough_lag1,0.006978856411104258
+Random Forest,scaled_cough_lag2,0.0015997098521646693
+Random Forest,scaled_cough_lag3,0.005490277707648813
+Random Forest,scaled_cough_lag4,0.005805577610223521
+Random Forest,scaled_cough_lag5,0.0012594042188772312
+Random Forest,scaled_cough_lag6,0.0029606480589780327
+Random Forest,scaled_cough_lag7,0.0008114942879288966
+Random Forest,scaled_cough_lag8,0.0003547775694866341
+Random Forest,scaled_sore throat_lag1,0.003486185091857737
+Random Forest,scaled_sore throat_lag2,0.001554949672583599
+Random Forest,scaled_sore throat_lag3,0.0010886291592719578
+Random Forest,scaled_sore throat_lag4,0.0023119525273657382
+Random Forest,scaled_sore throat_lag5,0.0028088571268383095
+Random Forest,scaled_sore throat_lag6,0.001092160878764709
+Random Forest,scaled_sore throat_lag7,0.001999986172844819
+Random Forest,scaled_sore throat_lag8,0.00260550843294758
+Random Forest,scaled_influenza_lag1,0.0021180402462278878
+Random Forest,scaled_influenza_lag2,0.006463570219909511
+Random Forest,scaled_influenza_lag3,0.0007655224386380916
+Random Forest,scaled_influenza_lag4,0.0021761034983401187
+Random Forest,scaled_influenza_lag5,0.00014986658691830786
+Random Forest,scaled_influenza_lag6,0.0006527218102772094
+Random Forest,scaled_influenza_lag7,0.001653296271987071
+Random Forest,scaled_influenza_lag8,0.0002748924318616193
+Random Forest,scaled_ili_percent_lag1,0.058129292435750365
+Random Forest,scaled_ili_percent_lag2,0.004424379353759917
+Random Forest,scaled_ili_percent_lag3,0.007615421545380992
+Random Forest,scaled_flu symptoms_lag3_squared,0.0044401936293973565
+Random Forest,scaled_influenza_lag3_squared,0.00042460133464007784
+Random Forest,flu symptoms_X_month_sin,0.12933504584423727
+Random Forest,flu symptoms_X_month_cos,0.0022653657087486788
+Random Forest,fever_X_month_sin,0.08815592857056345
+Random Forest,fever_X_month_cos,0.014910520299272501
+Random Forest,cough_X_month_sin,0.13803522390467957
+Random Forest,cough_X_month_cos,0.0023525648171788182
+Random Forest,sore throat_X_month_sin,0.14417209786197197
+Random Forest,sore throat_X_month_cos,0.0073828594825513984
+Random Forest,influenza_X_month_sin,0.08433103643660096
+Random Forest,influenza_X_month_cos,0.0023911343009852116
+Random Forest,scaled_flu symptoms_X_month_sin,0.01391704461925706
+Random Forest,scaled_flu symptoms_X_month_cos,0.002808156796536887
+Random Forest,scaled_fever_X_month_sin,0.01007907752365113
+Random Forest,scaled_fever_X_month_cos,0.01230375989331586
+Random Forest,scaled_cough_X_month_sin,0.009097710613472799
+Random Forest,scaled_cough_X_month_cos,0.006113165304087946
+Random Forest,scaled_sore throat_X_month_sin,0.01314473456204148
+Random Forest,scaled_sore throat_X_month_cos,0.0036433840501468944
+Random Forest,scaled_influenza_X_month_sin,0.010782631446978972
+Random Forest,scaled_influenza_X_month_cos,0.0009741051374428912
+Random Forest,flu symptoms_lag3_squared.1,0.0008543148053219228
+Random Forest,influenza_lag3_squared.1,0.00042901993322733134
+Random Forest,scaled_flu symptoms_lag3_squared.1,0.00258870934775247
+Random Forest,scaled_influenza_lag3_squared.1,0.000468529996170797
+Random Forest,flu symptoms_rolling_avg,0.003562728335164393
+Random Forest,fever_rolling_avg,0.00250378450963325
+Random Forest,cough_rolling_avg,0.0031771782753731133
+Random Forest,sore throat_rolling_avg,0.0017061743491891654
+Random Forest,influenza_rolling_avg,0.002551361457074102
+Random Forest,scaled_flu symptoms_rolling_avg,0.0018422874241376332
+Random Forest,scaled_fever_rolling_avg,0.004257643150893733
+Random Forest,scaled_cough_rolling_avg,0.003089660823077256
+Random Forest,scaled_sore throat_rolling_avg,0.004444531881591008
+Random Forest,scaled_influenza_rolling_avg,0.0018392974477416037
+XGBoost,month,1.0517466068267822
+XGBoost,quarter,0.0
+XGBoost,season_Spring,0.21360674500465393
+XGBoost,season_Summer,0.0
+XGBoost,season_Winter,0.0
+XGBoost,month_sin,0.0
+XGBoost,month_cos,0.00026825425447896123
+XGBoost,time_index,0.012878840789198875
+XGBoost,flu symptoms_lag1,0.008459620177745819
+XGBoost,flu symptoms_lag2,0.004329192917793989
+XGBoost,flu symptoms_lag3,0.04433322697877884
+XGBoost,flu symptoms_lag4,0.029051929712295532
+XGBoost,flu symptoms_lag5,0.023627780377864838
+XGBoost,flu symptoms_lag6,0.005885367747396231
+XGBoost,flu symptoms_lag7,0.001777970464900136
+XGBoost,flu symptoms_lag8,0.0120237423107028
+XGBoost,fever_lag1,0.030558859929442406
+XGBoost,fever_lag2,0.027908330783247948
+XGBoost,fever_lag3,0.010324484668672085
+XGBoost,fever_lag4,0.00664039421826601
+XGBoost,fever_lag5,0.0007947276462800801
+XGBoost,fever_lag6,0.015588147565722466
+XGBoost,fever_lag7,0.0009952515829354525
+XGBoost,fever_lag8,0.00282653677277267
+XGBoost,cough_lag1,0.03478708118200302
+XGBoost,cough_lag2,0.004069700837135315
+XGBoost,cough_lag3,0.015479977242648602
+XGBoost,cough_lag4,0.00027372402837499976
+XGBoost,cough_lag5,0.008355173282325268
+XGBoost,cough_lag6,0.012479296885430813
+XGBoost,cough_lag7,0.00043678548536263406
+XGBoost,cough_lag8,0.0
+XGBoost,sore throat_lag1,0.0008999591809697449
+XGBoost,sore throat_lag2,0.0
+XGBoost,sore throat_lag3,0.0022338186390697956
+XGBoost,sore throat_lag4,0.011703217402100563
+XGBoost,sore throat_lag5,0.0
+XGBoost,sore throat_lag6,0.0
+XGBoost,sore throat_lag7,0.0
+XGBoost,sore throat_lag8,0.006342727690935135
+XGBoost,influenza_lag1,0.0
+XGBoost,influenza_lag2,0.0011191257508471608
+XGBoost,influenza_lag3,0.0
+XGBoost,influenza_lag4,0.0005363986128941178
+XGBoost,influenza_lag5,0.0
+XGBoost,influenza_lag6,0.0
+XGBoost,influenza_lag7,0.0
+XGBoost,influenza_lag8,0.0
+XGBoost,ili_percent_lag1,0.2598777711391449
+XGBoost,ili_percent_lag2,0.03827538341283798
+XGBoost,ili_percent_lag3,0.08221982419490814
+XGBoost,flu symptoms_lag3_squared,0.0
+XGBoost,influenza_lag3_squared,0.0
+XGBoost,scaled_flu symptoms_lag1,0.0
+XGBoost,scaled_flu symptoms_lag2,0.0
+XGBoost,scaled_flu symptoms_lag3,0.0
+XGBoost,scaled_flu symptoms_lag4,0.0
+XGBoost,scaled_flu symptoms_lag5,0.0
+XGBoost,scaled_flu symptoms_lag6,0.0
+XGBoost,scaled_flu symptoms_lag7,0.0
+XGBoost,scaled_flu symptoms_lag8,0.0
+XGBoost,scaled_fever_lag1,0.0
+XGBoost,scaled_fever_lag2,0.0
+XGBoost,scaled_fever_lag3,0.0
+XGBoost,scaled_fever_lag4,0.0
+XGBoost,scaled_fever_lag5,0.0
+XGBoost,scaled_fever_lag6,0.0
+XGBoost,scaled_fever_lag7,0.0
+XGBoost,scaled_fever_lag8,0.0
+XGBoost,scaled_cough_lag1,0.0
+XGBoost,scaled_cough_lag2,0.0
+XGBoost,scaled_cough_lag3,0.0
+XGBoost,scaled_cough_lag4,0.0
+XGBoost,scaled_cough_lag5,0.0
+XGBoost,scaled_cough_lag6,0.0
+XGBoost,scaled_cough_lag7,0.0
+XGBoost,scaled_cough_lag8,0.0
+XGBoost,scaled_sore throat_lag1,0.0
+XGBoost,scaled_sore throat_lag2,0.0
+XGBoost,scaled_sore throat_lag3,0.0
+XGBoost,scaled_sore throat_lag4,0.0
+XGBoost,scaled_sore throat_lag5,0.0
+XGBoost,scaled_sore throat_lag6,0.0
+XGBoost,scaled_sore throat_lag7,0.0
+XGBoost,scaled_sore throat_lag8,0.0
+XGBoost,scaled_influenza_lag1,0.0
+XGBoost,scaled_influenza_lag2,0.0
+XGBoost,scaled_influenza_lag3,0.0
+XGBoost,scaled_influenza_lag4,0.0
+XGBoost,scaled_influenza_lag5,0.0
+XGBoost,scaled_influenza_lag6,0.0
+XGBoost,scaled_influenza_lag7,0.0
+XGBoost,scaled_influenza_lag8,0.0
+XGBoost,scaled_ili_percent_lag1,0.0
+XGBoost,scaled_ili_percent_lag2,0.0
+XGBoost,scaled_ili_percent_lag3,0.0
+XGBoost,scaled_flu symptoms_lag3_squared,0.0
+XGBoost,scaled_influenza_lag3_squared,0.0
+XGBoost,flu symptoms_X_month_sin,0.04463060945272446
+XGBoost,flu symptoms_X_month_cos,0.008659975603222847
+XGBoost,fever_X_month_sin,0.02087550237774849
+XGBoost,fever_X_month_cos,0.0827852115035057
+XGBoost,cough_X_month_sin,0.030347734689712524
+XGBoost,cough_X_month_cos,0.026542726904153824
+XGBoost,sore throat_X_month_sin,0.012077289633452892
+XGBoost,sore throat_X_month_cos,0.008985515683889389
+XGBoost,influenza_X_month_sin,0.013342350721359253
+XGBoost,influenza_X_month_cos,0.004257978871464729
+XGBoost,scaled_flu symptoms_X_month_sin,0.0
+XGBoost,scaled_flu symptoms_X_month_cos,0.0
+XGBoost,scaled_fever_X_month_sin,0.0
+XGBoost,scaled_fever_X_month_cos,0.0
+XGBoost,scaled_cough_X_month_sin,0.0
+XGBoost,scaled_cough_X_month_cos,0.0
+XGBoost,scaled_sore throat_X_month_sin,0.0
+XGBoost,scaled_sore throat_X_month_cos,0.0
+XGBoost,scaled_influenza_X_month_sin,0.0
+XGBoost,scaled_influenza_X_month_cos,0.0
+XGBoost,flu symptoms_lag3_squared.1,0.0
+XGBoost,influenza_lag3_squared.1,0.0
+XGBoost,scaled_flu symptoms_lag3_squared.1,0.0
+XGBoost,scaled_influenza_lag3_squared.1,0.0
+XGBoost,flu symptoms_rolling_avg,0.009737272746860981
+XGBoost,fever_rolling_avg,0.02581094577908516
+XGBoost,cough_rolling_avg,0.02623484469950199
+XGBoost,sore throat_rolling_avg,0.01484392024576664
+XGBoost,influenza_rolling_avg,0.007009650114923716
+XGBoost,scaled_flu symptoms_rolling_avg,0.0
+XGBoost,scaled_fever_rolling_avg,0.0
+XGBoost,scaled_cough_rolling_avg,0.0
+XGBoost,scaled_sore throat_rolling_avg,0.0
+XGBoost,scaled_influenza_rolling_avg,0.0

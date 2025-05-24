@@ -1,0 +1,5 @@
+season,MAE_mean,MAE_std,Residual_mean,Residual_std,Sample_count
+Fall,0.3863,0.24,-0.0091,0.4864,6
+Spring,0.8103,0.5922,0.1214,1.146,3
+Summer,0.4705,0.5523,0.1026,0.747,6
+Winter,0.5326,0.5105,-0.0915,0.7777,5
